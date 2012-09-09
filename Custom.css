@@ -1,0 +1,64 @@
+
+/** [GMAIL.COM]--           
+ * 
+ * Changes the font and the background color of the reading pane in gmail, and gmail chat.
+ * NEEDS Liberation Mono installed, see https://fedorahosted.org/liberation-fonts/
+ */
+	.nH{
+		font-family:  'Liberation Mono' !important;
+		font-size:14px;
+	}
+	.ad3, .zA{
+		font-family:  'Liberation Mono' !important;
+	}
+
+	.kn strong{
+		color:#333;
+		font-weight:normal;
+	}
+	.Z8Dgfe,.yP,.y6,.aXjCH,.jp{
+		background-color:#efefef !important;
+		font-family:  'Liberation Mono' !important;
+	}
+
+	.hP, .cO > span{
+		font-family:  'Liberation Mono' !important;
+	}
+	.editable *{
+		font-family:  'Liberation Mono' !important;	
+		font-size:11px;
+	}
+	.RtqMIe *{
+		font-family:  'Liberation Mono' !important;	
+	}
+/** --[GMAIL.COM] */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.single-page .side, #cCol{
+	visibility:hidden;
+	width:0px !important;	
+}
+.single-page{
+	font-family:  'Liberation Mono' !important;		
+}
+.post .caption {
+	font-family:  'Liberation Mono' !important;	
+	background-color: #efefef;
+	padding:10px !important;
+}
+#opinionator #aCol{
+	width:100% !important;
+}

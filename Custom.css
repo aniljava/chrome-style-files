@@ -1,5 +1,5 @@
-
-/** [GMAIL.COM]--           
+/**
+ * 	gmail.com
  * 
  * Changes the font and the background color of the reading pane in gmail, and gmail chat.
  * NEEDS Liberation Mono installed, see https://fedorahosted.org/liberation-fonts/
@@ -31,34 +31,49 @@
 	.RtqMIe *{
 		font-family:  'Liberation Mono' !important;	
 	}
-/** --[GMAIL.COM] */
 
 
 
 
+/**
+ * forbes.com
+ *
+ * removes the side meta bar
+ */
+	#contentwrapper aside{
+		visibility:hidden;
+		width:0px !important;
+	}
+	#abovefold .fleft{
+		width:100% !important;
+	}
+
+/**
+ * nytimes.com
+ * 
+ * removes the side metabar
+ */
+	.cColumn{
+		visibility:hidden;
+	}
 
 
 
+/** 
+ * REDDIT.COM
+ *
+ * Removes the meta bar at the side of comments allowing a full page.
+ */
+	.single-page .side, #cCol{
+		visibility:hidden;
+		width:0px !important;	
+	}
+	.single-page{
+		font-family:  'Liberation Mono' !important;		
+	}
+	.post .caption {
+		font-family:  'Liberation Mono' !important;	
+		background-color: #efefef;
+		padding:10px !important;
+	}
 
-
-
-
-
-
-
-
-.single-page .side, #cCol{
-	visibility:hidden;
-	width:0px !important;	
-}
-.single-page{
-	font-family:  'Liberation Mono' !important;		
-}
-.post .caption {
-	font-family:  'Liberation Mono' !important;	
-	background-color: #efefef;
-	padding:10px !important;
-}
-#opinionator #aCol{
-	width:100% !important;
-}
